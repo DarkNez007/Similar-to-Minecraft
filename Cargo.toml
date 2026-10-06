@@ -1,0 +1,17 @@
+[package]
+name = "mc-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.15.3"
+noise = "0.9"
+iyes_perf_ui = "0.4"
+
+[profile.release]
+# Компилировать весь крейт как единое целое для лучшей оптимизации
+codegen-units = 1
+# Включить оптимизацию на этапе компоновки (LTO)
+lto = "thin"
+# Уровень оптимизации (можно попробовать "s" для меньшего размера)
+opt-level = 3

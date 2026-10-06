@@ -1,0 +1,7 @@
+# ignore catalogs
+target/
+.vscode/
+.cargo/
+
+# ignore files
+Cargo.lock 
