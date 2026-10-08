@@ -103,19 +103,6 @@ text
 h = BASE_HEIGHT + (perlin_coarse * 0.75 + perlin_detail * 0.25) * 18
 Деревья расставляются детерминированно по хешу от (seed, x, z) — примерно 1 дерево на 120 колонок.
 
-🤝 Вклад в проект
-Приветствуются любые вклады! Пожалуйста:
-
-Форкните репозиторий
-
-Создайте ветку для фичи (git checkout -b feature/amazing-feature)
-
-Закоммитьте изменения (git commit -m 'Add amazing feature')
-
-Запушьте ветку (git push origin feature/amazing-feature)
-
-Откройте Pull Request
-
 📄 Лицензия
 Проект распространяется под лицензией MIT. Подробности в файле LICENSE.
 
